@@ -1,0 +1,61 @@
+# ==============================
+# DATA & OUTPUT (DATALAKE)
+# ==============================
+
+# Processed data (Parquet outputs)
+data/processed/
+coffee_project_datalake/
+
+# Parquet & Spark outputs
+*.parquet
+*.snappy
+_SUCCESS
+*.crc
+
+# Uncomment jika raw data terlalu besar (>100MB)
+# data/raw/
+
+
+# ==============================
+# JUPYTER & PYTHON
+# ==============================
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+
+# ==============================
+# VIRTUAL ENVIRONMENTS
+# ==============================
+
+.env
+.venv
+env/
+venv/
+ENV/
+
+
+# ==============================
+# SPARK LOCAL ARTIFACTS
+# ==============================
+
+spark-warehouse/
+metastore_db/
+derby.log
+
+
+# ==============================
+# OS / SYSTEM FILES
+# ==============================
+
+.DS_Store
+Thumbs.db
